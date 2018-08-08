@@ -13,8 +13,8 @@ let budget = +prompt('Ваш бюджет на месяц?'),//Переводи�
 	mainList.budget = budget;
 	mainList.shopName = shopName;
 	mainList.shopGoods = shopGoods;
-	mainList.employers;
-	mainList.open;
+	mainList.employers = [];
+	mainList.open = false;
 //Выводим суточный бюджет
 alert('Ваш бюджет на один день: ' + (budget / 30) );
 
